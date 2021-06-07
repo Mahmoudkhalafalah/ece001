@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mahmoud Mohamed Mahmoud Khalafallah</title>
+		<meta charset="utf-8">
+		<meta name="description" content="The Internet of Things (IoT): Applications,investments, and challenges for enterprises">
+
+		<style>
+		
+			.H
+			{
+				background-image: url('12304.jpg') ;
+				color:white ;
+				font-size: 50px ;
+				padding: 100px 0;
+				font-family: Arial, Helvetica, sans-serif;
+				text-align: left ;
+				text-shadow:0 5px 10px rgb(0,249,255), 0 2px 50px rgb(42,208,212);
+
+			}
+			.A
+			{ text-shadow:1px 1px 5px black;
+				color:#BLACK;}
+			.F
+			{
+				
+				 background: #ddd;
+					color:#2460A7FF;
+					border: 2px solid #758FDC;
+				padding:10px;
+				clear: both;
+				text-align:center;
+			}
+			
+			.Q
+			{
+			  background-color: #D9D9DA	;
+			  color:#2460A7FF;}
+			* {box-sizing: border-box}
+				body {font-family: "Lato", sans-serif;}
+
+				
+			.tab {
+			  float: left;
+			  border: 2px solid #758FDC;
+			  background-color: #85B3D1FF;
+			  
+			  width: 30%;
+				height: 1760px;
+				}
+			
+
+				
+			.tab button {
+			  display: block;
+			  background-color: inherit;
+			  color:#2460A7FF;
+			  padding: 22px 16px;
+			  width: 100%;
+			  border: none;
+			  outline: none;
+			  text-align: left;
+			  cursor: pointer;
+			  font-size: 17px;
+			}
+
+			
+			.tab button:hover {
+			  background-color: #758FDC;
+			}
+
+			
+			.tab button.active {
+			  background-color: #D9B48FFF;
+			}
+
+				
+			.tabcontent {
+			  background-color:#B3C7D6FF;
+			  color: #2460A7FF;
+			  float: left;
+			  padding: 0px 12px;
+			  border: 2px solid #758FDC;
+			  width: 70%;
+			  border-left: none;
+			  height: 1760px;
+			  display: none;
+			}
+		
+				
+			.clearfix::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+			table thead { background:#758FDC;}
+
+			
+		</style>
+	</head>
+	<body>
+		<div class="Q">
+		<div class="H">
+			Internet Of Things (IOT)
+		</div>
+		
+		
+		
+		<div class="tab">
+		  <button class="tablinks" onmouseover="openCity(event, 'Abstract')">Abstract</button>
+		  <button class="tablinks" onmouseover="openCity(event, 'IOT Technologies')">IOT Technologies</button>
+		  <button class="tablinks" onmouseover="openCity(event, 'IOT applications')">IOT applications</button>
+		  <button class="tablinks" onmouseover="openCity(event, 'Evolution of IOT')">Evolution of IOT</button>
+		  <button class="tablinks" onmouseover="openCity(event, 'Investment opportunities')">Investment opportunities</button>
+		  <button class="tablinks" onmouseover="openCity(event, 'Development challenges')">Development challenges</button>
+		  <button class="tablinks" onmouseover="openCity(event, 'Conclusion')">Conclusion</button>
+		  <button class="tablinks" onmouseover="openCity(event, 'Refrences')">Refrences</button>
+		</div>
+
+		<div id="Abstract" class="tabcontent">
+		  <p>
+		<div class="A"> <h1><b>Abstract</b></h1></div>
+			</p>		
+			<p>
+				The Internet of Things, also called the Internet of Everything or the Industrial Internet, is a new technology paradigm envisioned as a global 	network of machines and devices capable of interacting with each other. This article presents five IOT technologies that are essential in the deployment of successful IOT-based products and services and discusses three IOT categories for enterprise applications used to enhance customer value. <br>
+
+			<p>
+		<div class="A"> <h1><b>The internet of things.</b></h1></div>
+			</p>
+				The Internet of Things , also called the Internet of Everything or the Industrial Internet, is a new technology paradigm envisioned as a global network of machines and devices capable of interacting with each other.
+			<img src="120468-OPSATJ-716.jpg" alt="IOT" width=300px align="right">
+			<BR CLEAR=”right” />
+				Gartner forecasts that the IOT will reach 26 billion units by 2020, up from 0.9 billion in 2009, and will impact the information available to 		supply chain partners and how the supply chain operates.
+				From production line and warehousing to retail delivery and store shelving, the IOT is transforming business processes by providing more accurate and 	real-time visibility into the flow of materials and products.
+				In addition to manufacturers’ adoption of the IOT, various service industries are in the process of adopting the IOT to increase revenue through enhanced services and become leaders in their markets. RFID chips that serves as a ticket and connects to Disney’s data repository regarding park visitors.
+				Kroger’s new IOT-based system, Retail Site Intelligence, is one complete retail platform of video analytics, wireless devices, POS devices, handheld sensors, IP cameras, and video management software that was designed to help customers have a better shopping experience by more easily finding the productsthey want and saving time at checkout.
+				The adoption of this technology is rapidly gaining momentum as technological, societal, and competitive pressures push firms to innovate and transform themselves. As IOT technology advances and increasing numbers of firms adopt the technology, IOT cost-benefit analysis will become a subject of great interest. Because of the potential but uncertain benefits and high investment costs of the IOT, firms need to carefully assess every IOT-induced opportunity and challenge to ensure that their resources are spent judiciously.
+			</p>
+		</div>
+
+		<div id="IOT Technologies" class="tabcontent">
+			<p>
+		<div class="A"> <h1><b>IOT Technologies</b></h1></div>
+			</p>
+			<p><p><h4>Five IOT technologies are widely used forthe deployment of successful IOT-based 
+				products and services:</p></h4>
+			<ol>
+				<li><a href="#A">Radio frequency identification (RFID)</a></li>
+				<li><a href="#W">Wireless sensor networks (WSN)</a></li>
+				<li><a href="#M">Middleware</a></li>
+				<li><a href="#C">Cloud computing</a></li>
+				<li><a href="#I">IOT application software</a></li>
+			</ol>
+			</p>
+			<p>
+			<p id="R">
+		<div class="A"> <h2><b>Radio frequency identification (RFID)</b></h2></div>
+			<img src="smart-watch-contactless-cashless-payment.jpg" alt="IOT" width=150px align="right">
+			</p>
+			<p>
+				allows automatic identification and data capture using radio waves, a tag, and a reader. The tag can store more data than traditional barcodes.
+				Passive RFID tags rely on radio frequency energy transferred from the reader to the tag to power the tag; they are not battery-powered. Applications of these can be found in supply chains, passports, electronic tolls, and item-level tracking. Active RFID tags are used in manufacturing, hospital laboratories, and remote-sensing IT asset management.
+			</p>
+			<p id="W">
+		<div class="A"> <h2><b>Wireless sensor networks (WSN)</b></h2></div>
+			</p>
+			<p>	
+				Wireless sensor networks (WSN) consist of spatially
+				distributed autonomous sensor-equipped devices to
+				monitor physical or environmental &nbsp;&nbsp;conditions and can
+			<img src="Capture.PNG" alt="IOT" width=150px align="left">
+				cooperate with RFID systems to better track the
+				status of things such as their location, temperature,
+				&nbsp;&nbsp;and movements. WSN
+				allow different network topologies and multihop
+				communication. Recent technological advances in
+				&nbsp;&nbsp;low-power integrated circuits and wireless communications have made available efficient, low-cost,
+				low-power miniature &nbsp;&nbsp;devices for use in WSN applications .
+				WSN have primarily been used in cold chain
+				logisticsthat employ thermal and &nbsp;&nbsp;refrigerated packaging methods to transport temperature-sensitive
+				products . WSN are also used for maintenance and
+				&nbsp;&nbsp;tracking systems. For example, General Electric
+				deploys sensors in its jet engines, turbines, and
+				wind farms. By analyzing &nbsp;&nbsp;data in real time, GE saves
+				time and money associated with preventive maintenance.<br>&nbsp;&nbsp; Likewise, American Airlines uses sensors
+			<br>capable of capturing 30 terabytes of data per flight
+				for services such as preventive maintenance.
+			</p>
+			<p id="M">
+		<div class="A"> <h2><b>Middleware</b></h2></div>
+			</p>
+			<p>
+				Middleware is a software layer interposed between software applications to make it easier for software developers to perform communication and  .
+			<img src="image-removebg-preview.png" alt="IOT" width=300px align="right">	
+				input/ output. Middleware gained popularity in the 1980s due to its major role in simplifying the integration of legacy technologies into new ones. IOT with numerous heterogeneous devices requires simplifying the development of new applications and services, so the use of middleware
+				is an ideal fit with IOT application development. For example, Global Sensor Networks is an open-source sensor middleware platform enabling the development and deployment of sensor services with almost zero programming effort.
+			</p>
+			<p id="C">
+		<div class="A"> <h2><b>Cloud computing</b></h2></div>
+			</p>
+			<p>
+			Cloud computing is a model for on-demand access to a shared pool of configurable resources that can be provisioned as Infrastructure as a Service or Software as a Service . One of the most important outcomes of the IOT is an enormous amount of data generated from devices connected to the Internet . Many IOT applications require massive data storage, huge processing speed to enable realtime decision making, and high-speed broadband networks to stream data, audio, or video
+			</p>
+			<p id="I">
+		<div class="A"> <h2><b>IOT application software</b></h2></div>	
+			</p>
+			<p>
+				The IOT facilitates the development of myriad industry-oriented and user-specific IOT applications. For example, transportation and logistics applications monitor the status of transported goods such as fruits, fresh-cut produce, meat, and dairy products. During transportation, the conservation status is monitored constantly and appropriate actions are taken automatically to avoid spoilage when the connection is out of range. While device-to-device applications do not necessarily require data visualization, more and more human-centred IOT applications provide 
+				visualization to present information to end-users in an intuitive and easy-to-understand way and to allow interaction with the environment.
+			</p>
+		</div>
+		
+		<div id="IOT applications" class="tabcontent">
+		<div class="A"> <h1><b>IOT applications to enhance customer value</b></h1></div>
+			<p>
+				Because the IOT is such a recent development, there is still a paucity of studies on the social, behavioral,
+			<img src="15404.jpg" alt="IOT" width=100px align="right">
+				economic, and managerial aspects of the IOT. This
+				makes it very challenging for companies to make	
+				informed decisions as regards IOT adoption/
+				implementation. Our article is one ofthe firststudies
+				on a conceptual model of IOT applications for enterprises.In this article we identified three categories of
+				IOT applications: monitoring and control, big data
+				and business analytics, and information sharing and
+				collaboration. We also presented investment opportunities and investment evaluation with NPV and
+				real options. Finally, we discussed five challenges
+				in implementing IOT applications for enterprises.
+			</p>
+		<div class="A"> <h2><b>Monitoring and control</b></h2></div>	
+			<p>
+				The smart home is known to be at the forefront of innovation regarding IOT monitoring and control systems. The primary value propositions are 
+			<img src="346991-PAW7ZF-72.jpg" alt="IOT" width=100px align="left">	
+				&nbsp;&nbsp;family and property protection and energy savings. For example, the Verizon Home Monitoring and Control network uses a &nbsp;&nbsp;wireless communications technology designed specifically for remote control applications in home automation. IOT-enabled home &nbsp;&nbsp;appliances and devices can be monitored and controlled outside the user’s home through a computer, tablet, or smartphone. The primary customer value propositions are drivers’ personalized experience and satisfaction. The customer value propositions are &nbsp;&nbsp;appropriately integrated into the connected car environment to provide another revenue stream for Ford.
+			</p>
+		<div class="A"> <h2><b>Big data and business analytics</b></h2></div>
+			<p>
+				Business analytics tools may be embedded into IOT devices, such as wearable health monitoring sensors, so that real-time decision making can take place at the source of data. The IOT and advances in business analytics now make it possible to capture vast amounts of individual health data. IOT-based big data are also transforming the healthcare product industry. & Gamble developed the Oral-B Pro 5000 interactive electric 
+		<img src="14826.jpg" alt="IOT" width=300px align="right">	 
+				toothbrush to provide users with a smarter, more personalized oral care routine. The interactive electric toothbrush records brushing habits with mobile technology while giving mouth-care tips alongside news headlines. This innovation provides users with unprecedented control over
+				their oral care.
+			
+		<div class="A"> <h2><b>Information sharing and collaboration</b></h2></div>		
+			<p>
+				Sensing a predefined event is usually the first step for information sharing and collaboration. In the supply chain area, information sharing and collaboration enhance situational awareness and avoid information delay and distortion.
+				Shop Beacon provides Shop kick app users with personalized department-level deals, discounts, recommendations, and rewards. As shoppers enter Macy’s, shop  Beacon reminds those Shop kick app users who have opted in. In September 2014, following a pilot test of the application, Macy’s decided to roll out shop Beacon in all of its 4,000 U. Due to competitive pressure, there is expected to be rapid adoption of shop Beacon at other national retailers, too.
+			</p></p>
+			
+		</div>
+		<div id="Evolution of IOT" class="tabcontent">
+		<div class="A"> <h1><b>Evolution of the foundational IOT technologies</b></h1></div>
+			<p>
+				Various types of IOTapplications have emerged, and
+				the willingness of enterprises to utilize them is
+				growing rapidly.the IOTwill generate $14.4 trillion in
+				value; the combination of increased revenues and
+				lower costs will migrate among companies and industries from 2013 to 2022. From an industry perspective, four industries make up more than half of
+			<img src="Cisco-forecasting-regarding-the-IOT-evolution-till-2020.png" alt="IOT" width=300px align="right">
+				the $14.4 trillion in value. These leading four industries in terms of value at stake include manufacturing at 27%; retail trade at 11%; information services
+				at 9%; and finance and insurance, also at 9%. Other
+				industries such as wholesale, healthcare, and education lag behind in terms of value generation, with
+				a range between 1% and 7%. Much of the value for
+				manufacturers comes from greater agility and flexibility in factories, and from the ability to make the
+				most of workers’skills. Additionally, a large amount
+				of the value for retailers comes from connected
+				marketing and advertising. Geographic distributions
+				of the value are heavily driven by each region’s
+				relative economic growth rate and by the relativesize of industry sector in each region. In the United
+				States, $4.6 trillion of value is most prevalent in the
+				services area. However, in China, $1.8 trillion of
+				value is derived from rapid economic growth, mainly
+				in the manufacturing sector.
+				<a href="#1">Table 1</a> shows projected evolution in the area of
+				foundational IOT technologies: network, software
+				and algorithms, hardware, and data processing.
+				The network is the backbone of the IOT. It refers
+				to uniquely identifiable objects (things) and their
+				virtual representations in an Internet-like structure.
+				Network technology is moving to unobtrusive wirefree communication technology that allows deviceto-device applications to be deployed more flexibly.
+				Network technology is evolving toward a contextaware autonomous network.
+				Objects rely on software to communicate effectively with each other and to deliver enhanced
+				functionality and connectivity. Software should
+				be developed with the IOT’s interoperability,connectivity, privacy, and security requirements
+				in mind. The focus of software development is
+				shifting to user-oriented, distributed intelligence
+				and machine-to-machine and machine-to-human
+				collaboration.
+				The news that Google is paying $3.2 billion in cash
+				to buy Nest, a smart thermostat business, demonstrates the value of hardware in the IOT. Hardware is
+				innovatively designed and robustly produced, driven
+				by the consumerized IOT devices which have myriad
+				features, functionalities, and operating environments. While RFID tags and sensors have been the
+				focus of hardware innovation, miniaturization
+				of hardware and nanotechnology is leading the
+				energy-efficient, low-power hardware evolution.
+				IOT devices generate enormous quantities of data
+				that need to be aggregated and analyzed in real time
+				to provide information regarding status, location,
+				functionality, and environment of the devices. The
+				traditional data processing method does not work
+				well in the real-time streaming data process of the
+				IOT environment. Since processing large quantities
+				of IOT data in real time will increase workloads of
+				data centers at an exponential rate, data processing
+				will become more context-aware, optimized, and
+				cognitive.
+				In the IOT environment, a large number of
+				devices are connected with each other, and it is not
+				feasible to process all the streaming data available
+				to those devices. Context-aware data processing
+				enables sensors and devices to use context-specific
+				information such as location, temperature, and the
+				availability of a certain device to decide what data
+				to collect and interpret to provide relevant information to other devices or users. For example,
+				context-aware data processing can deliver relevant information to a user by knowing the user’s
+				current location (e.g., within a department store,
+				a park, or a museum). Cognitive data processing
+				integrates the human cognition process into IOT
+				applications. Rather than being programmed to
+				deal with every possible data-processing need, a
+				cognitive data-processing application is trained
+				using artificial intelligence algorithms to sense, predict, infer, and learn tasks and environments. For
+				example, cognitive data processing uses image recognition techniques to understand the surrounding
+				environment, processes data for a user, and utilizes
+				feedback from the user to learn further. The optimization of data processing is critical to timely
+				processing of the continuous stream of massive
+				amounts of data. Technological advances in optimized data processing help make timely decisions
+				in time-critical big data applications such as
+				smart grids, environmental monitoring, and smart
+				manufacturing.
+			</p>
+			<table border="1" width=100% >
+				<caption id="1"><b>Table 1. Evolution of key IOT technologies</b></caption>
+					<colgroup>
+						<col span="1" Style="background:#758FDC">
+					</colgroup>
+				<thead>
+					<tr>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<th>Before 2010</th>
+						<th>2010-2015</th>
+						<th>2015-2020</th>
+						<th>beyond 2020</th>					
+					</tr>
+				</thead>
+				<tr>
+					<td><b>Network</b></td>
+					<td><ul><li>Sensor networks</li><ul></td>
+					<td>
+						<ul>
+							<li>Self-aware and selforganizing networks</li>
+							<li>Sensor network location transparency</li>
+							<li>Delay-tolerant networks</li>
+							<li>Storage networks and power networks</li>
+							<li>Hybrid networking technologies</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Network context awareness</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Network cognition</li>
+							<li>Self-learning, selfrepairing networks</li>
+						<ul>
+					</td>					
+				</tr>
+				<tr>
+					<td><b>Software and Algorithm</b></td>
+					<td>
+						<ul>
+							<li>Relational database integration</li>
+							<li>IOT-oriented RDBMS</li>
+							<li>Event-based platforms</li>
+							<li>Sensor middleware</li>
+							<li>Sensor networks middleware</li>
+							<li> Proximity/Localization algorithms</li>
+						<ul>
+					</td>
+					<td>
+						<ul>
+							<li>Large-scale, open semantic software modules</li>
+							<li>Composable algorithms</li>
+							<li> Next generation IOTbased social software </li>
+							<li>Next generation IOTbased enterprise applications</li>	
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li> Goal-oriented software</li>
+							<li>Distributed intelligence, problem solving</li>
+							<li> Things-to-Things collaboration environments</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>User-oriented software</li>
+							<li>The invisible IOT</li>
+							<li>Easy-to-deploy IOT software</li>
+							<li>Things-to-Humans collaboration</li>
+							<li>IOT 4 All</li>
+						<ul>
+					</td>					
+				</tr>
+				<tr>
+					<td><b>Hardware</b></td>
+					<td>
+						<ul>
+							<li>RFID tags and some sensors</li>
+							<li>Sensors built into mobile devices</li>
+							<li>NFC in mobile phones</li>
+							<li> Smaller and cheaper MEMs technology</li>
+						<ul>
+					</td>
+					<td>
+						<ul>
+							<li>Multiprotocol,multistandards readers</li>
+							<li>More sensors and actuators</li>
+							<li> Secure, low-cost tags(e.g., Silent Tags)</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Smart sensors(biochemical)</li>
+							<li>More sensors and actuators(tiny sensors)</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Nanotechnology and new materials</li>
+						<ul>
+					</td>					
+				</tr>
+				<tr>
+					<td><b>Data Processing</b></td>
+					<td>
+						<ul>
+							<li>Serial data processing</li>
+							<li>Parallel data processing</li>
+							<li>Quality of services</li>
+						<ul>
+					</td>
+					<td>
+						<ul>
+							<li>Energy, frequency spectrum-aware data processing</li>
+							<li>Data processing context adaptable</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Context-aware data processing and data responses</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>Cognitive processing and optimization</li>
+						<ul>
+					</td>					
+				</tr>
+			</table>
+		</div>
+		<div id="Investment opportunities" class="tabcontent">
+		<div class="A"> <h1><b>IOT investment opportunities andevaluation (net present value vs. real option approach)</b></h1></div>
+			<p>
+				The IOT is penetrating a wide range of industries including retailing, manufacturing, healthcare, insurance, home appliances, heavy equipment, airlines, and logistics.
+				IOT technologies such as RFID-based merchandise tracking and home networking are concrete and immediately measurable. Other IOT technologies such as intelligent automobiles and intelligent hospital robot systems are in the experimental stage and their benefits may be realized in the long term.
+
+				Companies are expected to take advantage of the wave of IOT innovations in the coming years.
+				In general, companies are going to take an immediate investment or a wait-and-see approach to investment based on the maturity level of the specific IOT technologies.
+			</p>
+			<ul>
+				<li><div class="A"> <h2><b>Net present value and real option approach</b></h2></div></li>
+				<p>	
+					With so much potential value in the investment of IOT technology, firms need an appropriate measure by which to properly assess its risks and rewards. No other technology investment has the flexibility that information technology investments in general have . All of the aforementioned IOT technologies may have had value arising from investment flexibility. The following section discusses how the real option valuation can be applied for IOT investment.
+				</p>
+				<li><div class="A"> <h2><b>Real options</b></h2></div></li>
+				<p>	
+					These include the options to expand, contract and wait. Real options can prove particularly valuable in fields of high uncertainty and risk, such as information technology. As reviewed by Li and Johnson , two main characteristics make real options an appropriate application for IT investments. These characteristics make real option valuation ideal in valuing IOT investment projects, as it can capture value that otherwise would be overlooked. Good managers intuitively understand real options. Real option valuation allows management to quantify these options to more accurately reflect the value of a project and to have a real strategic impact on the value of a project. <a href="#2">Table 2</a> lists four general types of real options. There are several examples of how real options are used in valuation today.
+					<table border="1" width=100% >
+				<caption id="2"><b>Table 2. Types of real option approaches</b></caption>
+				<colgroup>
+					<col span="1" Style="background:#758FDC">
+				</colgroup>
+				<thead>
+					<tr>
+						<td><b>Type of option</b></td>
+						<td><b>Description</b></td>
+					</tr>
+				</thead>
+				<tr>
+						<td><b>Option to Abandon/Switch</b></td>
+						<td>This option gives management the option to abandon a project that is operating at a loss and sell or redeploy the assets.</td>
+				</tr>
+				<tr>
+						<td><b>Option to Contract</b></td>
+						<td>Similarto the option to abandon,this gives managementthe option to scale back a project that is operating at a loss.</td>
+				</tr>
+				<tr>
+						<td><b>Option to Defer/Postpone</b></td>
+						<td>This gives management the option to wait/learn more to see if a project will be profitable.</td>
+				</tr>
+				<tr>
+						<td><b>Option to Expand</b></td>
+						<td>This gives management the option to expand/scale up the project based on its success.</td>
+				</tr>
+				</table>
+				</p>	
+					Any firm that operates in a field of high uncertainty is likely to employ real options. Real option valuation is also used with movie deals. If the timing is not right, these options allow the studio to wait and perhaps produce the film at a later time.
+
+				</p>	
+				<li><div class="A"> <h2><b>Valuation</b></h2></div></li>
+				<p>	
+					Like financial options,real options can be calculated
+					using the Black-Scholes model or decision trees. For
+					real options, using decision trees may be more
+					appropriate, as that will allow setting up possibilities of the project according to what management
+					believes them to be. 
+				<table border="1" width=40% align="right" >
+					<caption id="3"><b>Table 3. Real options variables</b></caption>
+					
+					<thead>
+						<tr>
+							<td><b>Real options</b></td>
+							<td><b>Variable</b></td>
+							<td><b>Financial options</b></td>
+						</tr>
+					</thead>
+					<tr>
+							<td><b>Present Value of Project</b></td>
+							<td>S</td>
+							<td><b>Current stock price</b></td>
+					</tr>
+					<tr>
+							<td><b>Investment Cost of a Project</b></td>
+							<td>X</td>
+							<td><b>Option exercise price</b></td>
+					</tr>
+					<tr>
+							<td><b>Riskiness/Uncertainty of the Project</b></td>
+							<td>&#963;<sup>2</sup></td>
+							<td><b>Stock price uncertainty</b></td>
+					</tr>
+					<tr>
+							<td><b>Time Window of the Project</b></td>
+							<td>T</td>
+							<td><b>Time to expiration</b></td>
+					</tr>
+					<tr>
+							<td><b>Time Value of Money</b></td>
+							<td>X</td>
+							<td><b>Risk-Free rate</b></td>
+					</tr>
+				</table>	
+					When valuing real options, it is
+					especially important to stage the problem correctly
+					and to understand how real options are analogous to
+					financial options. <a href="#3">Table 3</a> provides a guide on how
+					they are related.
+					
+					S represents the present value of cash flows from
+					the project; X represents the cost to invest in the
+					project; &#963;<sup>2</sup> represents the riskiness of the project; T
+					represents the period of time in which management
+					can take an action; and r represents the risk-free
+					rate the investment capital would earn.
+				
+					Using decision trees to calculate the real option
+					value, one can stage the possible values a project can
+					take, exercise the option at the optimal time/value
+					ofthe project, and discount backward in orderto find
+					the value of the option. For example, with a oneperiod decision tree, we begin with the starting
+					value today, S<sub>0</sub>, and move forward one period. The
+					value can eitherincrease to S<sub>u</sub> or decrease to S<sub>d</sub>. From
+					here we can use the risk-free rate, r, and determine
+				
+				
+				
+					the probability of success (p) and failure (1-p),
+					determine the expected payoffs using the project
+					value less the investment amount, and essentially
+					work backward to determine the value ofthe option.
+			<p>
+				<li><div class="A"> <h2><b>Real options example</b></h2></div></li>
+			<p>		
+					Here we offer an example. A company is looking to
+					invest in new smart vending machines that will
+					reduce costs and increase profits. Management believes there is a probability of 0.55 that there will be
+					a high demand in this technology with a market
+					value of $140m, and a probability of 0.45 that there
+					will be a low demand in this technology with a
+					market value of $40m. <a href="#4">Fig.1</a>shows a decision
+					tree without real options.
+					If the cost of investing in this technology at time
+					zero is $100m and the discount rate is 8%, then from
+					a simple NPV calculation the value of the project is
+					—$12.04m, which the standard NPV rejects.
+					Present Value of Cash In flow
+			<img src="image-removebg-preview (2).png" alt="equ." width=300px align="right" >
+					However, management can use a real option approach to evaluate this investment as a phased financing and scaling option. The company could start
+					with a pilot project and better learn the market over
+					time. In the following year, management could avoid
+					full investment of $100m into this smart vending
+					machine technology if the market turns out to be
+					$40m, and only invest in this technology if the
+					market turns out to be $140m. Therefore, management can value the option using a decision tree
+					that takes the higher value as the exercised
+					option. The option value of this project from the
+					real option perspective is ($140m — $100m)*0.55 +
+					($0m)*0.45 = $22m/(1.08)1 = $20.37m. As long as the
+					pilot project costs less than $20.37m, this pilot project with a following investment in the smart vending
+					machine technology is worth doing. <a href="#4">Fig.2</a> showsthe option value calculation, discounted back one
+					period.
+					While this example wassimplified forreadersfrom
+					non-finance backgrounds, more complicated scenarios can be analyzed using the same principles. Many
+					IOT projects have unclear project scopes and goals
+					and are using breakthrough technologies; in such
+					scenarios, there is a higher risk of project failure
+					and greater irreversibility of investments than with
+					traditional technology projects. Our example highlights the value of real option approaches to IOT
+					projects.
+			
+				<img src="Capture1.PNG" alt="equ." width=300px align="right" id="4">
+				
+				<img src="Capture2.PNG" alt="equ." width=300px align="left">
+			</ul>
+		</div>
+		<div id="Development challenges" class="tabcontent">
+		<div class="A"> <h1><b>Challenges in IOT development</b></h1></div>
+			<p>
+				Based on the survey of IOT practices, this section
+				discusses challenges in IOT development by enterprises. As with any disruptive innovation, the IOT
+				will present multiple challenges to adopting enterprises. For example, due to the explosion of data
+				generated by IOT machines, Gartner(2014)suggested
+				that data centers will face challenges in security, the
+				enterprise, consumer privacy, data itself, storage
+				management, server technologies, and data center
+				networking. This section discusses five technical and
+				managerial challenges: data management, data mining, privacy, security, and chaos.
+			</p>
+				<ul>
+					<li><div class="A"> <h2><b>Data management challenge</b></h2></div></li>
+						<p>	
+							IOT sensors and devices are generating massive
+							amounts of data that need to be processed and
+							stored. The current architecture of the data center
+							is not prepared to deal with the heterogeneous
+							nature and sheer volume of personal and enterprise
+							data (Gartner, 2014). Few enterprises would be
+							able to invest in data storage sufficient to house all
+							the IOT data collected from their networks. Consequently, they will prioritize data for operations
+							or backup based on needs and value. Data centers
+							will become more distributed to improve processing efficiency and response time as IOT devices
+							become more widely used and consume more
+							bandwidth.
+						</p>
+					<li><div class="A"> <h2><b>Data mining challenge</b></h2></div></li>
+						<p>	
+							As more data are available for processing and analysis, the use of data mining tools becomes a necessity.
+							Data consist not only of traditional discrete data, but
+							also ofstreaming data generated from digitalsensors
+							in industrial equipment, automobiles, electrical meters, and shipping crates. These streaming data are
+							about location, movement, vibration, temperature,
+							humidity, and even chemical changes in the air. Data
+							mining tools can invoke corrective processes to address immediate operational issues or inform managers of discoveries regarding competitors’strategic
+							moves and customers’ preference changes that
+							will impact their short-term and long-term business
+							activities.
+							Data need to be tamed and understood using
+							computer and mathematical models. Traditional
+							data mining techniques are not directly applicable
+							to unstructured images and video data. Coupled
+							with the need for the advanced data mining tools
+							to mine streaming data from sensor networks and
+							image and video data, there is a shortage of
+							competent data analysts. McKinsey Global Institute estimated that the United States needs
+							140,000 to 190,000 more workers with analytical
+							skills and 1.5 million managers and analysts with
+							analytical skills to make business decisions based
+							on the analysis of big data.
+						</p>
+					<li><div class="A"> <h2><b>Privacy challenge</b></h2></div></li>
+						<p>	
+							As is the case with smart health equipment and
+							smart car emergency services, IOT devices can provide a vast amount of data on IOT users’ location
+							and movements, health conditions, and purchasing
+							preferences–—all of which can spark significant privacy concerns. Protecting privacy is often counterproductive to service providers in this scenario, as
+							data generated by the IOT is key to improving
+							the quality of people’s lives and decreasing service
+							providers’ costs by streamlining operations. The IOTis
+							likely to improve the quality of people’s lives.
+							According to the 2014 TRUSTe Internet of Things
+							Privacy Index, only 22% of Internet users agreed that
+							the benefits ofsmart devices outweighed any privacy
+							concerns . While the IOT continues
+							to gain momentum through smart home systems
+							and wearable devices, confidence in and acceptance
+							of the IOT will depend on the protection of users’
+							privacy.
+						</p>
+					<li><div class="A"> <h2><b>Security challenge</b></h2></div></li>	
+						<p>	
+							As a growing number and variety of connected
+							devices are introduced into IOT networks, the
+							potential security threat escalates. Although the
+							IOT improves the productivity of companies and
+							enhances the quality of people’s lives, the IOT will
+							also increase the potential attack surfaces for hackers and other cyber criminals. A recent study
+							revealed that 70% of the
+							most commonly used IOT devices contain serious
+							vulnerabilities. IOT devices have vulnerabilities
+							due to lack of transport encryption, insecure Web
+							interfaces, inadequate software protection, and
+							insufficient authorization. On average, each device
+							contained 25 holes, or risks of compromising the
+							home network. Devices on the IOT typically do not
+							use data encryption techniques.
+							Some IOT applications support sensitive infrastructures and strategic services such as the smart
+							grid and facility protection. Other IOT applications
+							will increasingly generate enormous amounts of
+							personal data about household, health, and financial status that enterprises will be able to leverage
+							fortheir businesses. Lack ofsecurity and privacy will
+							create resistance to adoption of the IOT by firms and
+							individuals. Security challenges may be resolved by
+							training developers to incorporate security solutions
+							(e.g., intrusion prevention systems, firewalls) into
+							products and encouraging users to utilize IOT security features that are built into their devices.
+						</p>
+					<li><div class="A"> <h2><b>Chaos challenge</b></h2></div></li>	
+						<p>	
+							The evolution of IOT technologies (e.g., chips,
+							sensors, wireless technologies) is in a hyperaccelerated innovation cycle that is much faster
+							than the typical consumer product innovation cycle.
+							There are still competing standards, insufficient
+							security, privacy issues, complex communications,
+							and proliferating numbers of poorly tested devices.
+							If not designed carefully, multi-purpose devices and
+							collaborative applications can turn our lives into
+							chaos. In an unconnected world, a small error or
+							mistake does not bring down a system; however, in a
+							hyper-connected world, an error in one part of a
+							system can cause disorder throughout. Smart home
+							applications and medical monitoring and control
+							systems consist of interconnected sensors and communication devices and controllers. If a sensor of a
+							medical monitoring and control system malfunctions, the controller may receive an incorrect signal, which may prove fatal to the patient. It is not
+							difficult to imagine smart home kits such as thermostats and residential power meters breaking down or
+							being attacked by hackers, creating unexpected
+							safety problems. The Internet bandwidth can get
+							saturated with data traffic of proliferating devices,
+							creating system-wide performance problems. A single device may have an insignificant problem, but
+							BUSHOR-1218; No. of Pages 10
+							The Internet of Things (IOT): Applications, investments, and challenges for enterprises 9
+							for the system as a whole, the chain reactions of
+							other connected devices can become disastrous. To
+							prevent chaos in the hyper-connected IOT world,
+							businesses need to make every effort to reduce
+							the complexity of connected systems, enhance
+							the security and standardization of applications,
+							and guarantee the safety and privacy of users anytime, anywhere, on any device.
+						</p>
+				</ul>
+			
+		</div>
+		<div id="Conclusion" class="tabcontent">
+		<div class="A"> <h1><b>Conclusion</b></h1></div>
+			<p>	
+				Because the IOT is such a recent development, there
+				is still a paucity of studies on the social, behavioral,
+				economic, and managerial aspects of the IOT. This
+				makes it very challenging for companies to make
+				informed decisions as regards IOT adoption/
+				implementation. Our article is one ofthe firststudies
+				on a conceptual model of IOT applications for enterprises.In this article we identified three categories of
+				IOT applications: monitoring and control, big data
+				and business analytics, and information sharing and
+				collaboration. We also presented investment opportunities and investment evaluation with NPV and
+				real options. Finally, we discussed five challenges
+				in implementing IOT applications for enterprises.
+			</p>
+			
+		</div>
+		<div id="Refrences" class="tabcontent">
+			<div class="A"> <h1><b>Citation</b></h1></div>
+				<ul>
+					<li><div class="A"> <a href="http://www.cisco.com/web/about/ac79/docs/innov/IoE_Economy.pdf" target="_blank">Bradley, J., Barbier, J., & Handler, D. (2013). Embracing the Internet of Everything to capture your share of $14.4 trillion.Cisco White Paper.</a></div></li><br><br>
+					<li><div class="A"> <a href="https://journals.sagepub.com/doi/10.2307/41166296"target="_blank">Fichman, R., Keil, M., & Tiwana, A. (2005).</a></div></li><br><br>
+					<li><div class="A"> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167739X13000241"target="_blank">Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013).</a></div></li><br><br>
+					<li><div class="A"> <a href="http://www8.hp.com/us/en/hp-news/press-release.html?id=1744676#.VOTykPnF-ok"target="_blank">Hewlett Packard. (2014, July 29). HP study reveals 70 percent of Internet of Things devices vulnerable to attack</a></div></li><br><br>
+					<li><div class="A"> <a href="https://link.springer.com/article/10.1007/s13177-009-0004-y"target="_blank">Hsueh, C.-F., & Chang, M.-S. (2010)</a></div></li><br><br>
+					<li><div class="A"> <a href="https://www.igi-global.com/gateway/article/1225"target="_blank">Li, X., & Johnson, J. (2002).</a></div></li><br><br>
+					<li><div class="A"> <a href="http://www.researchgate.net/publication/228664767_Vision_and_challenges_for_realising_the_Internet_of_Things"target="_blank">Sundmaeker, H., Guillemin, P., Friess, P., & Woelffle´, S. (2010).Vision and challenges for realising the Internet of Things.</a></div></li><br><br>
+					<li><div class="A"> <a href="http://www.truste.com/resources/privacy-research/us-internet-of-things-index-2014/"target="_blank">TRUSTe. (2014). TRUSTe Internet of Things privacy index–—US edition.</a></div></li><br><br>
+					<li><div class="A"> <a href="https://www.sciencedirect.com/science/article/abs/pii/S1366554511001116"target="_blank">White, C. C., III, & Cheong, T. (2012).</a></div></li><br><br>
+				</ul>
+				
+		</div>
+		<footer>
+		<div class="F">
+			This article is about the Internet of Things, and it is considered one of the most important topics that concern most countries of the world,<br> which represents a revolution in the world of technology, and it is one of the fastest-growing fields during the last decade. <br>It occupies a high place in the minds of technology developers.<br><br>
+			HTML,CSS& JAVASCRIPT <br>are used<br><br><b>Made by</b> <br> Group.7 <br>Sec.39/40<br><br>Copyright&copy; 2021. All Rights Reserved.<br>
+			Powered by M.Khalafallah
+			
+			
+	
+		</div>
+		</footer>
+		
+
+
+		<div class="clearfix"></div>
+
+		<script>
+		function openCity(evt, cityName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		</script>
+		</div>
+		</body>
+</html>
