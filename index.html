@@ -4,7 +4,7 @@
 		<title>Mahmoud Mohamed Mahmoud Khalafallah</title>
 		<meta charset="utf-8">
 		<meta name="description" content="The Internet of Things (IoT): Applications,investments, and challenges for enterprises">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<style>
 		
 			
@@ -90,89 +90,89 @@
 			table thead { background:#758FDC;}
 
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%px;
-  position: relative;
-height:340px;
-  
-}
 
-.text {
-  
-  position: absolute;
-  top:170px;
-  
-color:white ;
-font-size: 50px ;
+			.slideshow-container {
+			  max-width: 100%px;
+			  position: relative;
+			height:340px;
 
-font-family: Arial, Helvetica, sans-serif;
-text-align: left ;
-text-shadow:0 5px 10px rgb(0,249,255), 0 2px 50px rgb(42,208,212);
-}
+			}
 
+			.text {
 
+			  position: absolute;
+			  top:170px;
+
+			color:white ;
+			font-size: 50px ;
+
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: left ;
+			text-shadow:0 5px 10px rgb(0,249,255), 0 2px 50px rgb(42,208,212);
+			}
 
 
-.active, .dot:hover {
-  background-color: #717171;
-
-}
 
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1s;
-}
+			.active, .dot:hover {
+			  background-color: #717171;
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+			}
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-			
+			.fade {
+			  -webkit-animation-name: fade;
+			  -webkit-animation-duration: 1.5s;
+			  animation-name: fade;
+			  animation-duration: 1s;
+			}
+
+			@-webkit-keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+
+			@keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+
+			@media only screen and (max-width: 300px) {
+			  .prev, .next,.text {font-size: 11px}
+			}
+
 		</style>
 	</head>
 	<body>
 
-<div class="slideshow-container">
+		<div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <img src="12304.jpg" style="width:100%">
-  <div class="text">Internet Of Things (IOT)</div>
-</div>
+		<div class="mySlides fade">
+		  <div class="numbertext"></div>
+		  <img src="12304.jpg" style="width:100%">
+		  <div class="text">Internet Of Things (IOT)</div>
+		</div>
 
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <img src="15411.jpg" style="width:100%">
-  <div class="text">Internet Of Things (IOT)</div>
-</div>
+		<div class="mySlides fade">
+		  <div class="numbertext"></div>
+		  <img src="15411.jpg" style="width:100%">
+		  <div class="text">Internet Of Things (IOT)</div>
+		</div>
 
-<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <img src="23962.jpg" style="width:100%">
-  <div class="text">Internet Of Things (IOT)</div>
-</div>
+		<div class="mySlides fade">
+		  <div class="numbertext"></div>
+		  <img src="23962.jpg" style="width:100%">
+		  <div class="text">Internet Of Things (IOT)</div>
+		</div>
 
 
 
-</div>
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+		</div>
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
 		
 		
 		
@@ -904,27 +904,27 @@ text-shadow:0 5px 10px rgb(0,249,255), 0 2px 50px rgb(42,208,212);
 		}
 		</script>
 		</div>
-<script>
-var slideIndex = 0;
-showSlides();
+		<script>
+		var slideIndex = 0;
+		showSlides();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); 
-}
-</script>
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 3000); 
+		}
+		</script>
 		
 		</body>
 </html>
